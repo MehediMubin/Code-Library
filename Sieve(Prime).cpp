@@ -1,5 +1,7 @@
 // O(N*log(log(N)))
 
+bool prime[MAX + 5];
+
 void Sieve (int n)
 {
     prime[0] = prime[1] = 1;
