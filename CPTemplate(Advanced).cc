@@ -12,6 +12,7 @@ using namespace std;
 #define debug(x) cerr << #x << ": "; _print(x); cerr << endl;
 #else
 #define debug(x)
+#define Fwrite
 #endif
 
 void _print(ll t) {cerr << t;}
