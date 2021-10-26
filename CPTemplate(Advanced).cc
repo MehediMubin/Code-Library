@@ -11,8 +11,8 @@ using namespace std;
 #define Fwrite freopen("Error.txt", "w", stderr);
 #define debug(x) cerr << #x << ": "; _print(x); cerr << endl;
 #else
-#define debug(x)
 #define Fwrite
+#define debug(x)
 #endif
 
 void _print(ll t) {cerr << t;}
