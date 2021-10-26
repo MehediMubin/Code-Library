@@ -16,9 +16,9 @@ using namespace std;
 
 void _print(ll t) {cerr << t;}
 void _print(int t) {cerr << t;}
-void _print(string t) {cerr << t;}
 void _print(char t) {cerr << t;}
 void _print(double t) {cerr << t;}
+void _print(string t) {cerr << t;}
 
 template <class T, class V> void _print(pair <T, V> p) {cerr << "{"; _print(p.first); cerr << ","; _print(p.second); cerr << "}";}
 template <class T> void _print(vector <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
